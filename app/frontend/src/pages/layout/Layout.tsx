@@ -2,7 +2,7 @@
 // Licensed under the MIT license.
 
 import { Outlet, NavLink, Link } from "react-router-dom";
-import openai from "../../assets/openai.svg";
+import embee from "../../assets/logo.svg";
 import { WarningBanner } from "../../components/WarningBanner/WarningBanner";
 import styles from "./Layout.module.css";
 import { Title } from "../../components/Title/Title";
@@ -32,7 +32,7 @@ export const Layout = () => {
                 <WarningBanner />
                 <div className={styles.headerContainer}>
                     <div className={styles.headerTitleContainer}>
-                        <img src={openai} alt="Azure OpenAI" className={styles.headerLogo} />
+                        <img src={embee} alt="Azure OpenAI" className={styles.headerLogo} />
                         <h3 className={styles.headerTitle}><Title /></h3>
                     </div>
                     <nav>
